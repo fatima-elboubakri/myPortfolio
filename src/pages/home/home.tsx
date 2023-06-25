@@ -24,7 +24,6 @@ export default function VHome() {
         <meta name="description" content="This is my portfolio page. The purpose of this page is to introduce my person, my coding style, and show off a little bit of my web development skills." />
         <meta name="author" content="Fatima Elboubakri"/>
         <meta name="keywords" content="Fatima, Elboubakri, Portfolio, Frontend"/>
-        <meta property="og:image" content="https://www.kElboubakri.com/portfolioPage.png" key="ogimage"/>
         <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon"/>
       </Head>
       <VMenuBar activeTab="Home"/>

@@ -74,13 +74,13 @@ export function VToolsTech() {
           width="55px"
           name="React"
           tooltipID="react-tooltip" />
-        <VIcon
+        {/* <VIcon
           defaulIcon={angularLogo}
           onHoverIcon={angularLogoHover}
           height="50px"
           width="50px"
           name="Angular"
-          tooltipID="angular-tooltip" />
+          tooltipID="angular-tooltip" /> */}
         <VIcon
           defaulIcon={tsLogo}
           onHoverIcon={tsLogoHover}
@@ -95,13 +95,13 @@ export function VToolsTech() {
           width="60px"
           name="Sass"
           tooltipID="sass-tooltip" />
-        <VIcon
+        {/* <VIcon
           defaulIcon={lessLogo}
           onHoverIcon={lessLogoHover}
           height="65px"
           width="65px"
           name="Less"
-          tooltipID="less-tooltip" />
+          tooltipID="less-tooltip" /> */}
       </div>
       <div className={styles.technologiesIconsRow}>
         <VIcon
@@ -139,13 +139,13 @@ export function VToolsTech() {
           width="70px"
           name="MySQL"
           tooltipID="mysql-tooltip" />
-        <VIcon
+       {/*  <VIcon
           defaulIcon={pythonLogo}
           onHoverIcon={pythonLogoHover}
           height="55px"
           width="55px"
           name="Python"
-          tooltipID="python-tooltip" />
+          tooltipID="python-tooltip" /> */}
       </div>
       <div className={styles.technologiesIconsRow}>
         <VIcon
@@ -155,20 +155,20 @@ export function VToolsTech() {
           width="50px"
           name="Visual Studio Code"
           tooltipID="vs-tooltip" />
-        <VIcon
+        {/* <VIcon
           defaulIcon={affinityLogo}
           onHoverIcon={affinityLogoHover}
           height="50px"
           width="50px"
           name="Affinity"
-          tooltipID="affinity-tooltip" />
-        <VIcon
+          tooltipID="affinity-tooltip" /> */}
+   {/*      <VIcon
           defaulIcon={davinciLogo}
           onHoverIcon={davinciLogoHover}
           height="50px"
           width="50px"
           name="DaVinci Resolve"
-          tooltipID="davinci-tooltip" />
+          tooltipID="davinci-tooltip" /> */}
         <VIcon
           defaulIcon={windowsLogo}
           onHoverIcon={windowsLogoHover}
@@ -176,13 +176,13 @@ export function VToolsTech() {
           width="50px"
           name="Windows 10"
           tooltipID="windows-tooltip" />
-        <VIcon
+       {/*  <VIcon
           defaulIcon={linuxLogo}
           onHoverIcon={linuxLogoHover}
           height="50px"
           width="50px"
           name="Ubuntu Linx"
-          tooltipID="linux-tooltip" />
+          tooltipID="linux-tooltip" /> */}
       </div>
     </div>
   )

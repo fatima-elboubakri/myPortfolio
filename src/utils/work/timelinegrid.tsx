@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { nobleLogo, usLogo, waskoLogo, tellyoLogo } from "../../assets";
+import { nobleLogo, usLogo, waskoLogo, tellyoLogo, m2mLogo, openclassrooms, techtrend, pcaLogo } from "../../assets";
 import { getDate } from "../date";
 import styles from "./timelinegrid.module.scss";
 
@@ -15,15 +15,16 @@ export function VTimelineGrid() {
         <div className={styles.cardContent}>
           <div className={styles.cardContentHeader}>
             <div className={styles.companyLogo}>
-              <Image
-                alt="University private of Marrakech"
-                src={usLogo}
-                height={50}
-                width={50}
+            <Image
+                alt="norsys company logo."
+                src={waskoLogo}
+                height={70}
+                width={30}
+                objectFit="cover"
               />
             </div>
             <div className={styles.companyInfo}>
-              <h1 className={styles.companyTitle}>Norsys Afrique</h1>
+              <h1 className={styles.companyTitle}>Norsys</h1>
               <h2 className={styles.cardContentDetails}>Marrakech</h2>
               <h2 className={styles.cardContentDetails}>03.2018 - 06.2018</h2>
             </div>
@@ -53,10 +54,11 @@ export function VTimelineGrid() {
           <div className={styles.cardContentHeader}>
             <div className={styles.companyLogo}>
               <Image
-                alt="Wasko company logo."
+                alt="norsys company logo."
                 src={waskoLogo}
-                height={13}
-                width={55}
+                height={80}
+                width={50}
+                objectFit="cover"
               />
             </div>
             <div className={styles.companyInfo}>
@@ -89,7 +91,7 @@ export function VTimelineGrid() {
             <div className={styles.companyLogo}>
               <Image
                 alt="Wasko company logo."
-                src={waskoLogo}
+                src={m2mLogo}
                 height={13}
                 width={55}
               />
@@ -123,7 +125,7 @@ export function VTimelineGrid() {
             >
               <Image
                 alt="Noble Systems company logo."
-                src={nobleLogo}
+                src={openclassrooms}
                 height={50}
                 width={50}
               />
@@ -153,7 +155,7 @@ export function VTimelineGrid() {
             >
               <Image
                 alt="Noble Systems company logo."
-                src={nobleLogo}
+                src={techtrend}
                 height={50}
                 width={50}
               />
@@ -183,7 +185,7 @@ export function VTimelineGrid() {
             <div className={styles.companyLogo}>
               <Image
                 alt="Tellyo company logo."
-                src={tellyoLogo}
+                src={pcaLogo}
                 height={50}
                 width={50}
               />

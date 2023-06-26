@@ -36,7 +36,7 @@ export function VFooter() {
         <VIcon
           defaulIcon={gitHubLogo}
           onHoverIcon={gitHubLogoHover}
-          href="https://github.com/fatima-elboubakri/myPortfolio"
+          href="https://github.com/fatima-elboubakri"
           height="30px"
           width="30px"
           name="GitHub"/>

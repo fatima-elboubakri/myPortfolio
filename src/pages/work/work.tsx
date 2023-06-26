@@ -9,11 +9,11 @@ export default function VWork() {
     <div className={styles.workContainer}>
       <Head>
         <title>Work history</title>
-        <meta name="description" content="Karolina Hudziec Portfolio Page" />
-        <meta name="author" content="Karolina Hudziec" />
+        <meta name="description" content="Fatima Elboubakri Portfolio Page" />
+        <meta name="author" content="Fatima Elboubakri" />
         <meta
           name="keywords"
-          content="Karolina, Hudziec, Portfolio, Frontend"
+          content="Fatima, Elboubakri, Portfolio, Frontend"
         />
         <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
       </Head>

@@ -56,7 +56,7 @@ export { default as dribbbleLogo } from './logos/dribbbleLogo.png'
 export { default as freeCodeCampLogo } from './logos/freeCodeCampLogo.png'
 export { default as hashnodeLogo } from './logos/hashnodeLogo.png'
 export { default as sitePointLogo } from './logos/sitePointLogo.png'
-export { default as profilePicture } from './root_profile.png'
+export { default as profilePicture } from './profile.png'
 export { default as chevronDown } from './chevronDown.svg'
 
 export { default as barcelonaSagradaPhoto } from './photos/barcelonaSagradaPhoto.png'

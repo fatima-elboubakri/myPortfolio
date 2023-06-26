@@ -37,7 +37,7 @@ export default function VHome() {
                 src={profilePicture}
                 //width={1500}
                 //height={1500}
-                sizes='40px'
+                //sizes='40px'
                 />
             </div>
           </div>

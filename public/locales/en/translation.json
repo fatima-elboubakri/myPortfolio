@@ -1,0 +1,37 @@
+{
+    "home": {
+        "intro": {
+            "title": "Hello everyone!",
+            "subtitle": "I'm Fatima.",
+            "description": "Welcome on my portfolio page! I'm a Software Developer currently working as Front end Developer. Living in Casablanca, Morocco."
+        },
+        "WorkHistory": {
+            "title": "Work History",
+            "description": "Here you can find out more about the companies I've collaborated with, projects I've been part of and the technologies I use every day.",
+            "btnTitle": "Check out my work history"
+        },
+        "knowledge": {
+            "title": "Technologies & Tools I work with"
+        },
+        "aboutme": {
+            "title": "About me",
+            "description": "Here you can find out more about me, my hobbies and personal project I'm currently working on.",
+            "btnTitle": "Get to know more about me"
+        }
+    },
+    "work": {
+        "title": "My work history",
+        "description":" My name is Fatima El Boubakri, and I am a software engineer with diverse experience. I graduated as an engineer in Information and Communication Technologies and Embedded Systems (TICSE) in September '2018'      \n \n          I began my career working on the 'RECRUTE_SOURCING' project at Norsys Afrique, where I contributed to the analysis, development, and bug fixing of a cross-platform recruitment and sourcing management application.    \n \n        Later, in March '2020', I joined M2MGROUP as a study and development engineer. I worked on projects such as BMCE and MAUBANK, where I developed customized solutions and wrote technical documents.    \n \n        In February '2021', I joined Techtrend Solutions as a software engineer. I contributed to the development of new features and bug fixing for the '07ZR' client project.    \n \n        Since August '2021', I have been working at Payment Center for Africa as a software engineer. I have participated in various projects, including CHAABI PAY, BPAY, and SWIPE, providing IT solutions, developing new features, and ensuring solution maintenance.    \n \n        In addition, I have been mentoring students in PHP/Symfony application development projects at OpenClassrooms since January '2021'.    \n \n        I have acquired a diverse set of skills, including working with tools such as React JS/Native, Git, SQL, Keycloak, REST API, Java, Scrum, as well as having a strong knowledge of Symfony, PHP, MySQL, and other technologies.    \n \n        I am passionate about software development and have demonstrated my ability to adapt to different projects and work effectively in a team.    \n \n        ",
+        "intership":"Topic: Recruitment Application\n \nRecruitment application, design and development of a cross-platform recruitment and sourcing application with REST architecture and JWT security.\n \nTasks: Analysis, task allocation, functional development, bug fixing, documentation, testing.\n \nTools: IONIC 3, Symfony 3.4, PHP, MySQL, REST API, JWT, Google Search API, PhpUnit, Bootstrap, Git, Composer, Trello.\n \n",
+        "norsys":"Project: ServiceNav http://coservit.com/servicenav/fr/\n \nClient: Coservit Group, France\n \nResponsibilities: Estimation, functional analysis, client POCs, task allocation, development of functional enhancements, bug fixing.\n \nTools: Nagios Plugins, Perl, PowerShell, Shell Script, PHP, SQL, Jira, Microsoft API (Azure/Office365), Git, Symfony, VB Script, Scrum, SNMP, REST API\n \n",
+        "m2m":"Projects: BMCE, MAUBANK\n \n\n \n Responsibilities: Development of customized solutions, technical analysis, software component adaptation, unit/functional testing, technical documentation.\n \n Tools: VB .NET (.NET Framework 3.5), Pro*C, JAVA SE, JEE M2M framework, REST API, Git, SVN, WildFly, Tomcat, Maven, SQL, Oracle",
+        "oc":"Mentoring and pedagogical support for students in the 'PHP/Symfony Application Developer' program.",
+        "techtrend":"Client Project: 07ZR\n \n\n \n Responsibilities: Development of new features, bug fixing, and implementation of unit and functional tests.\n \n  Tools: Symfony 2.8/3.4, Git, Jira, MySQL, Elasticsearch, REST API, Twig, CSS, JS\n \n",
+        "pca":"Wallets Projects: CHAABI PAY, BPAY, SWIPE, FMCG\n \n\n \nClients: BCP, M2T\n \n\n \n Responsibilities: • IT solution design and development, technical estimation, feasibility, integration, new features, maintenance, testing, customer support, knowledge sharing. Tools: React JS/Native, Git, SQL, Keycloak, REST API, Java, JS"
+    },
+    "aboutme": {
+        "gallery":"Photo Gallery",
+        "title":"About me",
+        "description":"I started my career as a backend developer using PHP and Symfony. PHP remains my preferred language, and Symfony is the framework I adore. \n \n\n \n I make an effort to stay up-to-date with the latest Symfony developments. However, in the past couple of years, I discovered React, and that's where my passion for frontend development ignited. Every day, I strive to improve myself and learn new things in this field. \n \nMy passion for development has given me two things: the joy of learning and the pleasure of sharing knowledge. \n \n\n \n\n \n\n \n To unwind, I find hiking to be a rejuvenating activity. There's a sense of challenge and productivity when I ascend mountains, making me appreciate life even more. Moreover, I have had the opportunity to explore precious places through image galleries. These experiences have left a profound impact on me and have helped me develop a deeper appreciation for the beauty of our world."
+    }
+}

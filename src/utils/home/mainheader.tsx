@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './mainheader.module.scss'
 import { useTypedText } from '../typingtext'
+import  {getLanguage, trans} from '../../i18n'
+import { useTranslation } from 'react-i18next';
+
+
 
 export function VMainHeader() {
+  useEffect(()=>{console.log(getLanguage()),[]})
   return (
     <div className={styles.aboutInfo}>
       <h1 className={styles.header}>
-        {useTypedText("Hello everyone!", 50)}
+        {(trans("home.intro.title"))}
         <br/>
-        {useTypedText("I'm Fatima.", 50, 200)}
+        {trans("home.intro.subtitle")}
       </h1>
       <h2>
-        {useTypedText("Welcome on my portfolio page! I'm a Software Developer  currently working as TypeScript React Web Developer. Living in Casablanca, Morocco.", 30, 350)}
+        {trans("home.intro.description")}
       </h2>
     </div>
   )

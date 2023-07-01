@@ -1,0 +1,37 @@
+{
+  "home": {
+    "intro": {
+      "title": "Bonjour à tous!",
+      "subtitle": "Je suis Fátima.",
+      "description": "Bienvenue sur ma page de portfolio! Je suis un développeur de logiciels travaillant actuellement en tant que développeur front-end vivant à Casablanca, au Maroc."
+    },
+    "WorkHistory": {
+      "title": "Antécédents de travail",
+      "description": "Ici, vous pouvez en savoir plus sur les entreprises avec lesquelles j'ai collaboré, les projets auxquels j'ai participé et les technologies que j'utilise au quotidien.",
+      "btnTitle": "Consulter mon historique de travail"
+    },
+    "knowledge": {
+      "title": "Les technologies"
+    },
+    "aboutme": {
+      "title": "A propos du moi",
+      "description": "Ici vous pouvez en savoir plus A propos du moi, mes hobbies et le projet personnel sur lequel je travaille actuellement.",
+      "btnTitle": "En savoir plus A propos du moi"
+    }
+  },
+  "work": {
+    "title": "Mon historique de travail",
+    "description": " Je m'appelle Fatima El Boubakri et je suis ingénieur logiciel avec une expérience diversifiée. \n \nJ'ai débuté ma carrière sur le projet 'RECRUTE_SOURCING' chez Norsys Afrique, où j'ai contribué à l'analyse, au développement et à la correction de bugs d'une application multiplateforme de gestion du recrutement et du sourcing.\n \nPlus tard, en mars '2020', j'ai rejoint M2MGROUP en tant qu'ingénieur d'études et de développement. \n \nEn février '2021', j'ai rejoint Techtrend Solutions en tant qu'ingénieur logiciel. \n \nDepuis août '2021', je travaille au Payment Center for Africa en tant qu'ingénieur logiciel. \n \nDe plus, j'encadre des étudiants dans des projets de développement d'applications PHP/Symfony à OpenClassrooms depuis janvier '2021'.\n \nJ'ai acquis un ensemble diversifié de compétences, notamment en travaillant avec des outils tels que React JS/Native, Git, SQL, Keycloak, REST API, Java, Scrum, ainsi qu'une solide connaissance de Symfony, PHP, MySQL et d'autres technologies. \n \nJe suis passionné par le développement logiciel et j'ai démontré ma capacité à m'adapter à différents projets et à travailler efficacement en équipe.\n \n",
+    "intership": " Projet : RECRUTE_SOURCING Conception et réalisation d'une application multiplateforme de gestion du recrutement et de sourcing dans les réseaux de professionnels (LinkedIn) en adoptant une architecture REST et une sécurisation JWT. \n \nMissions : Participation dans l’analyse et la répartition des tâches Développement des évolutions fonctionnelles. \n \nCorrection des anomalies et réalisation des évolutions.\n \nRédaction des différents documents accompagnant la livraison.\n \n Jeux et plan de tests. \n \nOutils : IONIC 3, Symfony 3.4,php, MySQL, REST API, JWT, Google Search API, PhpUnit, Bootstrap,Git, Composer, Trello.",
+    "norsys": " Missions Client: ServiceNav http://coservit.com/servicenav/fr/,groupe Coservit , France \n \nMissions client: Réalisation des taches de chiffrage et d'analyse fonctionnelle Réalisation des POCs pour les clients potentiels Participation dans l’analyse et la répartition des tâches Développement des évolutions fonctionnelles. Correction des anomalies. \n \nOutils : Plugins Nagios, Perl, Powershell,Scriptshell, Php, Sql, Jira, Api Microsoft(Azure/office365), Git,Symfony, Vb Script, Scrum, Snmp, Rest Api ",
+    "m2m": " Projet: BMCE , MAUBANK \n \nMissions : Développement des solutions adaptées aux besoins des clients ; Analyse technique et Adaptation des composants logiciels existants ; Définition et l’implémentation de tests unitaires/fonctionnels; Rédaction des documents techniques des projets. \n \nOutils : VB .NET(.Net Framework 3.5), Pro*C, JAVA SE,JEE M2M framework ,rest api, git, svn, wildfly ,tomcat,maven,sql, oracle",
+    "oc": " missions de mentoring et d'accompagnement pédagogique pour les projets du parcours 'développeur des applications php/symfony'",
+    "techtrend": "Projet Client: 07ZR\n \n Missions : Développement des nouvelles fonctionnalités Correction des Anomalies ; Définition et implémentation des tests unitaires &fonctionnels \n \nOutils: Symfony 2.8/3.4 ,git,jira,mysql,elasticsearch,restapi,twig,css,js",
+    "pca": "Projets wallets: CHAABI PAY, BPAY, SWIPE,... Clients : BCP, M2T\n \n Missions : • Conception et développement des solutions IT;\n \n • Participation dans la phase de l'estimation et de définition des\n \n choix techniques. \n \n• Étude de faisabilité technique et définition des règles de gestion. \n \n• Intégration des maquettes. \n \n• Développement des nouvelles fonctionnalités. \n \n• Participation dans la maintenance des solutions. \n \n• Définition et réalisation des scénarios de tests;\n \n •Accompagnement du client durant l'étape de recette et d'intégration des solutions. \n \n• Partage des connaissances. \n \nOutils: ReactJS/Native,git,sql,keycloak,restapi,java,js"
+  },
+  "aboutme": {
+    "gallery": "Galerie de photos",
+    "title": "A propos du moi",
+    "description":"J'ai commencé ma carrière en tant que développeur backend en utilisant PHP et Symfony. PHP reste mon langage préféré et Symfony est le framework que j'adore. J'essaie de suivre constamment les dernières actualités liées à Symfony. Au cours des deux dernières années, j'ai découvert React, et c'est là que ma passion pour le développement frontend est née. Chaque jour, je m'efforce de m'améliorer et d'apprendre de nouvelles choses dans ce domaine.\n \n \n \nMa passion pour le développement m'a offert deux choses : le plaisir d'apprendre et le plaisir de partager mes connaissances. Pour me détendre, j'aime me rendre en randonnée. Cette activité me permet de me ressourcer. J'aime particulièrement relever le défi d'escalader des montagnes, car cela me rend plus productive et épanouie dans ma vie.\n \n \n \nCes expériences m'ont profondément marqué et m'ont permis d'apprécier davantage la beauté de notre monde."
+}
+}

@@ -15,6 +15,7 @@ import {
 } from '../../assets'
 
 import styles from './home.module.scss'
+import { trans } from '../../i18n'
 
 export default function VHome() {
   return (
@@ -52,11 +53,11 @@ export default function VHome() {
         <div className={styles.workHistory}>
           <div className={styles.linkBox}>
             <Fade>
-              <h1 className={styles.linkBoxTitle}>Work<br/>History</h1>
-              <h2 className={styles.linkBoxTextContent}>Here you can find out more about the companies I've collaborated with, projects I've been part of and the technologies I use every day.</h2>
+              <h1 className={styles.linkBoxTitle}>{trans('home.WorkHistory.title')}</h1>
+              <h2 className={styles.linkBoxTextContent}>{trans('home.WorkHistory.description')}</h2>
               <Link href={`/work/work`}>
                 <a className={styles.linkBoxButton}>
-                  Check out my work history
+                {trans('home.WorkHistory.btnTitle')}
                 </a>
               </Link>
             </Fade>
@@ -65,18 +66,18 @@ export default function VHome() {
         </div>
         <div className={styles.technologiesAndTools}>
           <Fade>
-            <h1>Technologies & Tools I work with</h1>
+            <h1> {trans('home.knowledge.title')}</h1>
             <VToolsTech/>
           </Fade>
         </div>
         <div className={styles.personalProjects}>
             <div className={styles.linkBox}>
               <Fade>
-                <h1 className={styles.linkBoxTitle}>About me</h1>
-                <h2 className={styles.linkBoxTextContent}>Here you can find out more about me, my hobbies and personal project I'm currently working on.</h2>
+                <h1 className={styles.linkBoxTitle}>{trans('home.aboutme.title')}</h1>
+                <h2 className={styles.linkBoxTextContent}>{trans('home.aboutme.description')}</h2>
                 <Link href={`/about/about`}>
                   <a className={styles.linkBoxButton}>
-                    Get to know more about me
+                  {trans('home.aboutme.btnTitle')}
                   </a>
                 </Link>
               </Fade>

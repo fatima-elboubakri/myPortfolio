@@ -2,6 +2,7 @@ import Image from "next/image";
 import { nobleLogo, usLogo, waskoLogo, tellyoLogo, m2mLogo, openclassrooms, techtrend, pcaLogo } from "../../assets";
 import { getDate } from "../date";
 import styles from "./timelinegrid.module.scss";
+import { trans } from "../../i18n";
 
 export function VTimelineGrid() {
   return (
@@ -30,21 +31,13 @@ export function VTimelineGrid() {
             </div>
           </div>
           <p className={styles.cardContentDescription}>
-            Projet : RECRUTE_SOURCING Conception et réalisation d'une
-            application multiplateforme de gestion du recrutement et de sourcing
-            dans les réseaux de professionnels (LinkedIn) en adoptant une
-            architecture REST et une sécurisation JWT. Missions : Participation
-            dans l’analyse et la répartition des tâches Développement des
-            évolutions fonctionnelles. Correction des anomalies et réalisation
-            des évolutions. Rédaction des différents documents accompagnant la
-            livraison. Jeux et plan de tests. Outils : IONIC 3, Symfony 3.4,
-            php, MySQL, REST API, JWT, Google Search API, PhpUnit, Bootstrap,
-            Git, Composer, Trello.
+      
+            {trans('work.intership')}
           </p>
         </div>
       </div>
-      <div className={styles.timelineGridItemAdjoiningCard} />
-      <div className={styles.timelineGridItem} />
+    
+
       <div className={styles.timelineGridItem} />
       <div className={styles.timelineGridItemWide}>
         <h1 className={styles.companyTitle}>Graduation</h1>
@@ -68,17 +61,8 @@ export function VTimelineGrid() {
             </div>
           </div>
           <p className={styles.cardContentDescription}>
-            Missions Client: ServiceNav http://coservit.com/servicenav/fr/,
-            groupe Coservit , France Missions client: Réalisation des taches de
-            chiffrage et d'analyse fonctionnelle Réalisation des POCs pour les
-            clients potentiels Participation dans l’analyse et la répartition
-            des tâches Développement des évolutions fonctionnelles. Correction
-            des anomalies. Outils : Plugins Nagios, Perl, Powershell,
-            Scriptshell, Php, Sql, Jira, Api Microsoft(Azure/office365), Git,
-            Symfony, Vb Script, Scrum, Snmp, Rest Api Missions Interne:
-            Formatrice en PHP dans le cadre de l'école technomacker PHP de
-            Norsys Afrique Préparation des supports de formation Organisation et
-            planification des formations interne des collaborateurs
+
+            {trans('work.norsys')}
           </p>
         </div>
       </div>
@@ -103,13 +87,8 @@ export function VTimelineGrid() {
             </div>
           </div>
           <p className={styles.cardContentDescription}>
-            Projet: BMCE , MAUBANK Missions : Développement des solutions
-            adaptées aux besoins des clients ; Analyse technique et Adaptation
-            des composants logiciels existants ; Définition et l’implémentation
-            de tests unitaires/fonctionnels; Rédaction des documents techniques
-            des projets. Outils : VB .NET(.Net Framework 3.5), Pro*C, JAVA
-            SE,JEE M2M framework ,rest api, git, svn, wildfly ,
-            tomcat,maven,sql, oracle
+      
+            {trans('work.m2m')}
           </p>
         </div>
       </div>
@@ -137,8 +116,8 @@ export function VTimelineGrid() {
             </div>
           </div>
           <p className={styles.cardContentDescription}>
-            missions de mentoring et d'accompagnement pédagogique pour les
-            projets du parcours "développeur des applications php/symfony"
+         
+            {trans('work.oc')}
             <br />
           </p>
         </div>
@@ -167,16 +146,13 @@ export function VTimelineGrid() {
             </div>
           </div>
           <p className={styles.cardContentDescription}>
-            Projet Client: 07ZR Missions : Développement des nouvelles
-            fonctionnalités Correction des Anomalies ; Définition et
-            implémentation des tests unitaires &fonctionnels Outils: Symfony
-            2.8/3.4 ,git,jira,mysql,elasticsearch,restapi,twig,css,js
+     
+            {trans('work.techtrend')}
             <br />
           </p>
         </div>
       </div>
-      <div className={styles.timelineGridItemAdjoiningCard} />
-      <div className={styles.timelineGridItemAdjoiningCard} />
+
       <div className={styles.timelineGridItem} />
       <div className={styles.timelineGridItem} />
       <div className={styles.timelineGridItemCard}>
@@ -197,19 +173,12 @@ export function VTimelineGrid() {
             </div>
           </div>
           <p className={styles.cardContentDescription}>
-            Projets wallets: CHAABI PAY, BPAY, SWIPE,... Clients : BCP, M2T
-            Missions : • Conception et développement des solutions IT; •
-            Participation dans la phase de l'estimation et de dénition des
-            choix techniques. • Étude de faisabilité technique et dénition des
-            règles de gestion. • Intégration des maquettes. • Développement des
-            nouvelles fonctionnalités. • Participation dans la maintenance des
-            solutions. • Dénition et réalisation des scénarios de tests; •
-            Accompagnement du client durant l'étape de recette et d'intégration
-            des solutions. • Partage des connaissances. Outils: React
-            JS/Native,git,sql,keycloak,restapi,java,js
+            
+            {trans('work.pca')}
           </p>
         </div>
       </div>
+      <div className={styles.timelineGridItem} />
       <div className={styles.timelineGridItem} />
       <div className={styles.timelineGridItem} />
       <div className={styles.timelineGridItemWide}>

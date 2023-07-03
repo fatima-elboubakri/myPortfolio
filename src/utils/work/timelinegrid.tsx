@@ -2,9 +2,11 @@ import Image from "next/image";
 import { nobleLogo, usLogo, waskoLogo, tellyoLogo, m2mLogo, openclassrooms, techtrend, pcaLogo } from "../../assets";
 import { getDate } from "../date";
 import styles from "./timelinegrid.module.scss";
-import { trans } from "../../i18n";
+import { useTranslation } from "react-i18next";
+
 
 export function VTimelineGrid() {
+  const { t } = useTranslation();
   return (
     <div className={styles.timelineGrid}>
       <div className={styles.timelineGridItemWide}>
@@ -32,7 +34,7 @@ export function VTimelineGrid() {
           </div>
           <p className={styles.cardContentDescription}>
       
-            {trans('work.intership')}
+            {t('work.intership')}
           </p>
         </div>
       </div>
@@ -62,7 +64,7 @@ export function VTimelineGrid() {
           </div>
           <p className={styles.cardContentDescription}>
 
-            {trans('work.norsys')}
+            {t('work.norsys')}
           </p>
         </div>
       </div>
@@ -88,7 +90,7 @@ export function VTimelineGrid() {
           </div>
           <p className={styles.cardContentDescription}>
       
-            {trans('work.m2m')}
+            {t('work.m2m')}
           </p>
         </div>
       </div>
@@ -117,7 +119,7 @@ export function VTimelineGrid() {
           </div>
           <p className={styles.cardContentDescription}>
          
-            {trans('work.oc')}
+            {t('work.oc')}
             <br />
           </p>
         </div>
@@ -147,7 +149,7 @@ export function VTimelineGrid() {
           </div>
           <p className={styles.cardContentDescription}>
      
-            {trans('work.techtrend')}
+            {t('work.techtrend')}
             <br />
           </p>
         </div>
@@ -174,7 +176,7 @@ export function VTimelineGrid() {
           </div>
           <p className={styles.cardContentDescription}>
             
-            {trans('work.pca')}
+            {t('work.pca')}
           </p>
         </div>
       </div>

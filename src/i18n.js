@@ -25,10 +25,6 @@ i18n.use(Backend)
     resources:resources,
 })
 
-export function trans(key) {
-  const { t} = useTranslation();
-  return t(key);
-}
 
 export const changeLanguage = (language) => {
 i18n.changeLanguage(language);;

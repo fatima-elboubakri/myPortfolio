@@ -15,9 +15,11 @@ import {
 } from '../../assets'
 
 import styles from './home.module.scss'
-import { trans } from '../../i18n'
+import { useTranslation } from 'react-i18next'
+
 
 export default function VHome() {
+  const { t } = useTranslation();
   return (
     <div className={styles.homeContainer}>
       <Head>
@@ -53,11 +55,11 @@ export default function VHome() {
         <div className={styles.workHistory}>
           <div className={styles.linkBox}>
             <Fade>
-              <h1 className={styles.linkBoxTitle}>{trans('home.WorkHistory.title')}</h1>
-              <h2 className={styles.linkBoxTextContent}>{trans('home.WorkHistory.description')}</h2>
+              <h1 className={styles.linkBoxTitle}>{t('home.WorkHistory.title')}</h1>
+              <h2 className={styles.linkBoxTextContent}>{t('home.WorkHistory.description')}</h2>
               <Link href={`/work/work`}>
                 <a className={styles.linkBoxButton}>
-                {trans('home.WorkHistory.btnTitle')}
+                {t('home.WorkHistory.btnTitle')}
                 </a>
               </Link>
             </Fade>
@@ -66,18 +68,18 @@ export default function VHome() {
         </div>
         <div className={styles.technologiesAndTools}>
           <Fade>
-            <h1> {trans('home.knowledge.title')}</h1>
+            <h1> {t('home.knowledge.title')}</h1>
             <VToolsTech/>
           </Fade>
         </div>
         <div className={styles.personalProjects}>
             <div className={styles.linkBox}>
               <Fade>
-                <h1 className={styles.linkBoxTitle}>{trans('home.aboutme.title')}</h1>
-                <h2 className={styles.linkBoxTextContent}>{trans('home.aboutme.description')}</h2>
+                <h1 className={styles.linkBoxTitle}>{t('home.aboutme.title')}</h1>
+                <h2 className={styles.linkBoxTextContent}>{t('home.aboutme.description')}</h2>
                 <Link href={`/about/about`}>
                   <a className={styles.linkBoxButton}>
-                  {trans('home.aboutme.btnTitle')}
+                  {t('home.aboutme.btnTitle')}
                   </a>
                 </Link>
               </Fade>

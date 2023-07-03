@@ -3,13 +3,15 @@ import Head from "next/head";
 import { Fade } from "react-awesome-reveal";
 import { VFooter, VMenuBar, VTimelineGrid } from "../../utils";
 import styles from "./work.module.scss";
-import { trans } from "../../i18n";
+import { useTranslation } from "react-i18next";
+
 
 export default function VWork() {
+  const { t } = useTranslation();
   return (
     <div className={styles.workContainer}>
       <Head>
-        <title>  {trans('home.Workhistory.title')}</title>
+        <title>  {t('home.Workhistory.title')}</title>
         <meta name="description" content="Fatima Elboubakri Portfolio Page" />
         <meta name="author" content="Fatima Elboubakri" />
         <meta
@@ -22,9 +24,9 @@ export default function VWork() {
       <div className={styles.content}>
         <div className={styles.summary}>
           <Fade>
-            <h1>{trans('work.title')}</h1>
+            <h1>{t('work.title')}</h1>
             <h4>
-            {trans('work.description')}
+            {t('work.description')}
             </h4>
           </Fade>
         </div>

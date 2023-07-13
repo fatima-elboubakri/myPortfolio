@@ -29,7 +29,7 @@ export function VFooter() {
         <VIcon
           defaulIcon={gmailLogo}
           onHoverIcon={gmailLogoHover}
-          href="fatimaelboubakri00c@gmail.com"
+          href="fatimaelboubakri00@gmail.com"
           height="30px"
           width="30px"
           name="Gmail"/>
